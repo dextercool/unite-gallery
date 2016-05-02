@@ -1,8 +1,5 @@
 {
-    // package name
     "name": "mati/unite-gallery",
-
-    // package type
     "type": "yii2-extension",
 
     "description": "Gallery based on UniteGallery",
@@ -15,12 +12,10 @@
         }
     ],
 
-    // package dependencies
     "require": {
         "yiisoft/yii2": "*"
     },
 
-    // class autoloading specs
     "autoload": {
         "psr-4": {
             "mati\\uniteGallery\\": ""
