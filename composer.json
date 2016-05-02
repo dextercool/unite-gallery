@@ -1,0 +1,29 @@
+{
+    // package name
+    "name": "mati/unite-gallery",
+
+    // package type
+    "type": "yii2-extension",
+
+    "description": "Gallery based on UniteGallery",
+    "keywords": ["yii2", "UniteGallery", "image", "gallery"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Zbigniew Staszel",
+            "email": "staszel@mati.com.pl"
+        }
+    ],
+
+    // package dependencies
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+
+    // class autoloading specs
+    "autoload": {
+        "psr-4": {
+            "mati\\uniteGallery\\": ""
+        }
+    }
+}
