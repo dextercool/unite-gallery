@@ -25,7 +25,7 @@ class UniteGallery extends Widget
 	{
         $view = $this->getView();
 
-        UniteGallerAsset::register($view);
+        UniteGalleryAsset::register($view);
     }
 }
 

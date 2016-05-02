@@ -31,5 +31,5 @@ class UniteGalleryAsset extends AssetBundle
         parent::registerAssetFiles($view);
     }
 }  
-
+ 
 ?>
